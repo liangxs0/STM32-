@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+"..\main.o"
+"..\startup_stm32f10x_hd.o"
+"..\usart1.o"
+"..\led.o"
+"..\key.o"
+"..\beep.o"
+"..\relay.o"
+"..\delay.o"
+"..\core_cm3.o"
+"..\system_stm32f10x.o"
+--strict --scatter "..\TempLate.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\TempLate.map" -o ..\TempLate.axf
