@@ -1,0 +1,8 @@
+--cpu Cortex-M3
+".\startup_stm32f10x_hd.o"
+".\core_cm3.o"
+".\system_stm32f10x.o"
+--strict --scatter ".\BriupStm32.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\BriupStm32.map" -o .\BriupStm32.axf
