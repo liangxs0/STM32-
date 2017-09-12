@@ -467,6 +467,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\Hardware\src\inv_mpu.c</FilePath>
             </File>
+            <File>
+              <FileName>24C04.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Hardware\src\24C04.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
